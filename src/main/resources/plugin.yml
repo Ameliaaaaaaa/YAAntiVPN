@@ -1,0 +1,5 @@
+name: YAAntiVPN
+description: 'YAAntiVPN is an AntiVPN plugin that utilizes our own custom developed database.'
+author: Amelia
+version: 1.1.2
+main: me.amelia.yaantivpn.Bukkit.Bukkit

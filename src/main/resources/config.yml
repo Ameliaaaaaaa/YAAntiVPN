@@ -1,0 +1,93 @@
+# API key. This is not required if using the free plan. Providing a valid API key will instead use the key for rate limits instead of the IP address. You can get an API key on our Discord (https://discord.com/HUfEpGje83)
+APIKey: ''
+
+Block:
+  BUSINESS:
+    Enabled: true
+    Message:
+      - '&8---------------- &dYAAntiVPN &8----------------'
+      - '&7You cannot join the server using a &bbusiness IP address ({IP})&7.'
+      - ''
+      - '&7Mistake? Contact an administrator in our Discord.'
+      - '&8---------------- &dYAAntiVPN &8----------------'
+    Alert:
+      - '&8---------------- &dYAAntiVPN &8----------------'
+      - '&b{USERNAME} &7attempted to join using a &bbusiness IP address&7.'
+      - ''
+      - '&7Address&8: &b{IP}'
+      - '&8---------------- &dYAAntiVPN &8----------------'
+  HOSTING:
+    Enabled: true
+    Message:
+      - '&8---------------- &dYAAntiVPN &8----------------'
+      - '&7You cannot join the server using a &bhosting IP address ({IP})&7.'
+      - ''
+      - '&7Mistake? Contact an administrator in our Discord.'
+      - '&8---------------- &dYAAntiVPN &8----------------'
+    Alert:
+      - '&8---------------- &dYAAntiVPN &8----------------'
+      - '&b{USERNAME} &7attempted to join using a &bhosting IP address&7.'
+      - ''
+      - '&7Address&8: &b{IP}'
+      - '&8---------------- &dYAAntiVPN &8----------------'
+  VPN:
+    Enabled: true
+    Message:
+      - '&8---------------- &dYAAntiVPN &8----------------'
+      - '&7You cannot join the server using a &bVPN ({IP})&7.'
+      - ''
+      - '&7Mistake? Contact an administrator in our Discord.'
+      - '&8---------------- &dYAAntiVPN &8----------------'
+    Alert:
+      - '&8---------------- &dYAAntiVPN &8----------------'
+      - '&b{USERNAME} &7attempted to join using a &bVPN&7.'
+      - ''
+      - '&7Address&8: &b{IP}'
+      - '&8---------------- &dYAAntiVPN &8----------------'
+  CLOUD_GAMING:
+    Enabled: true
+    Message:
+      - '&8---------------- &dYAAntiVPN &8----------------'
+      - '&7You cannot join the server using a &bcloud gaming provider ({IP})&7.'
+      - ''
+      - '&7Mistake? Contact an administrator in our Discord.'
+      - '&8---------------- &dYAAntiVPN &8----------------'
+    Alert:
+      - '&8---------------- &dYAAntiVPN &8----------------'
+      - '&b{USERNAME} &7attempted to join using a &bcloud gaming provider&7.'
+      - ''
+      - '&7Address&8: &b{IP}'
+      - '&8---------------- &dYAAntiVPN &8----------------'
+
+# Player UUID's listed here will bypass the AntiVPN plugin.
+Whitelist: []
+
+CountryBlacklist:
+  Countries: []
+  Message:
+    - '&8---------------- &dYAAntiVPN &8----------------'
+    - '&7You cannot join the server from &b{COUNTRY}&7.'
+    - ''
+    - '&7Mistake? Contact an administrator in our Discord.'
+    - '&8---------------- &dYAAntiVPN &8----------------'
+  Alert:
+    - '&8---------------- &dYAAntiVPN &8----------------'
+    - '&b{USERNAME} &7attempted to join from a &bblacklisted country&7.'
+    - ''
+    - '&7Country&8: &b{COUNTRY}'
+    - '&8---------------- &dYAAntiVPN &8----------------'
+
+ISPBlacklist:
+  ISPs: []
+  Message:
+    - '&8---------------- &dYAAntiVPN &8----------------'
+    - '&7You cannot join the server from your ISP &b{ISP}&7.'
+    - ''
+    - '&7Mistake? Contact an administrator in our Discord.'
+    - '&8---------------- &dYAAntiVPN &8----------------'
+  Alert:
+    - '&8---------------- &dYAAntiVPN &8----------------'
+    - '&b{USERNAME} &7attempted to join using a &bblacklisted ISP&7.'
+    - ''
+    - '&7ISP&8: &b{ISP}'
+    - '&8---------------- &dYAAntiVPN &8----------------'
